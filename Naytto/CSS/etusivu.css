@@ -1,0 +1,72 @@
+/* yleiset tyylit */
+body {
+    font-family: Arial, sans-serif;     /*Fontti*/
+    margin: 0;
+    padding: 0;
+    background-color: #748D92;      /*Yleinen tausta*/
+  }
+  
+  header {
+    background-color: #212A31;      /*Headerin tausta*/
+    color: white;
+    text-align: center;                 /*Headerin tekstin keskitys*/
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    padding: 1rem;
+  }
+  
+  .esittely {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  
+  .esittely h2 {
+    font-size: 1.5rem;
+  }
+  
+  .esittely p {
+    margin: 1rem 0;
+  }
+  
+  .Artikkelit {
+    margin-top: 2rem;
+  }
+  
+  .artikkeli {
+    background-color: #D3D9D4;
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid #494040;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  
